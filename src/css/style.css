@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 2px;
+  }
+ body {
+      background-image: url("/src/Images/Donut\ pic2.gif");
+      background-size: 75%;
+      background-position:  center center;
+    }
+
+
+	
+	/* START OF NAV BAR */
+	#menu-wrapper{
+		display: flex;
+		align-items: flex-end;
+		position: fixed;
+		top: 0%;
+		left: 50vw;
+		z-index: 10000;
+		transform: translate(-10%);
+		background-color: greenyellow;
+	}
+	
+	.menu-item{
+		cursor: pointer;
+		margin: -1px;
+		padding: 1px 4px 1px 4px;
+		border: 2px solid rgb(0, 0, 0);
+		color: black;
+		background-color: var(--menu-bg-color);
+		border-radius: 2px;
+	}
+	.menu-dropdown-item a, a:visited, a:active, a:hover{
+		color:rgb(0, 102, 255);
+	}
+	
+	.menu-dropdown-item{
+		display: none;
+		cursor: pointer;
+		margin: 3px;
+		padding: 1px 4px 1px 4px;
+		border: 2px solid rgb(0, 0, 0);
+		color: black;
+		background-color: rgb(193, 255, 47);
+		border-radius: 2px;
+		position: absolute; 
+		top: 30px;
+		left: 50vw;
+		transform: translate(-50%);
+		width: 552px;
+		min-height: 100px;
+		z-index: 500000;
+	}
+	
+	#menu-id-fred{
+		width: 212px;
+		height: 18px;
+	}
+	#menu-id-inspiration{
+		width: 175;
+		height: 18px;
+	} 
+		 #menu-id-contact{
+		width: 107px;
+		height: 18px;
+	}
+/* END OF NAV BAR */
+/* #donutsCounterDisplay{
+	position: relative;
+	top: 80px;
+	font-size: 50px;
+	font-weight: bold;
+} */
+
+
+  button {
+    font-size: large;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: greenyellow;
+  }
+  .nav_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 90%;
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header_nav{
+  align-self: stretch;
+}
+.number-of-donuts{
+	margin: 0;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	font-family: Ranchers;
+	background: rgba(197, 16, 85, 0.616);
+	font-size: 6rem;
+	/* transform: translate(); */
+}
+#menu-wrapper{
+	display: flex;
+	align-items: flex-end;
+	position: fixed;
+	top: 0%;
+	left: 50vw;
+	z-index: 10000;
+	transform: translate(-50%);
+}
+
+#button--buyMultiplier{
+	width: 160px;
+	z-index: 99999999;
+}
+#button--buyAutoClicker{
+	width: 160px;
+	z-index: 99999999;
+}
+
+
+#resetGame{
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	background-color: greenyellow;
+}
+	.footer-font {
+	text-align: center;
+	width: 100%;
+	font-size: 90%;
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,12 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module 4 Project</title>
+    <title>DONUTS IN THE HOUSE</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    
+    
 </head>
+
+
 <body>
-    <div class="container">
-        <div class="anchor"></div>
-    </div>
-    <script src="/src/app.js"></script>
+
+    <header>
+        <nav>
+            <div id="menu-wrapper">
+                <div id="menu-id-about" class="menu-item">About Eddy's Donut House</div>
+                <div id="menu-id-inspiration" class="menu-item" >Inspiration: Cookie Clicker</div>
+                <div id="menu-id-contact" class="menu-item">My Contact Info</div>
+            </div>
+            <div>
+                <div id="menu-item-about" class="menu-dropdown-item">
+                    <div class="closeTheBox">&times;</div>
+                    <h2 style="margin-top: 0px;">Eddy's Donut House</h2>
+                    <ul>
+                        </li>Crafting sweet treats for the mind, body and soul since 1976.</li>
+                        </li>Our menu ranges from hand made assorted donuts to many spanish inspired pasteries.</li>
+                        </li>The bakery's roots go back to Puerto Rico with rich sweet notes by applying our homemade flavorful approach.</li>
+                   </ul>
+                </div>
+
+                <div id="menu-item-inspiration" class="menu-dropdown-item">
+                    <div class="closeTheBox">&times;</div>
+                    The inspiration for this game was: 
+                    <a href="https://orteil.dashnet.org/cookieclicker/">Cookie Clicker (https://orteil.dashnet.org/cookieclicker/)</a>.
+                </div>
+
+                <div id="menu-item-contact" class="menu-dropdown-item">
+                    <div class="closeTheBox">&times;</div>
+                    Eduardo Colon: 
+                    <a href="mailto:Eddicsworld76@gmail.com" target="_blank"> E-mail</a>  
+                    <a href="https://github.com/MyBrowns76" target="_blank"> GitHub</a>
+            </div>
+        </nav>
+    </header>
+
+
+
+      <main>
+
+        <div><h1>Let's Make Some Donuts!</h1></div>
+        <div> <h3>Donut Counter </h3>
+            <button id="donut-click-button" >Click me To Add A Donut</button></div>
+            <p class="number-of-donuts">0</p>
+
+
+        
+
+            <div id="grid-column-1" class="grid-column">
+                <div id="donutUpgradesStore">
+                    <br><br>
+                    <h2 style="text-decoration: underline;">UPGRADES</h2>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div>
+                        <h3 id="h3--multipliers">Donut Multipliers: </h3>
+                        <div id="store-1-cursor" class="donutUpgradesStore--option-box">
+                            <button id="button--buyMultiplier" class="store--button">Purchase 1 for 10 donuts</button>
+                        </div>
+                        <div id="donutsPerClickDisplay">Donuts per click: </div>
+                    </div>
+
+
+                    <h3 id="h3--autoclickers">Auto Clickers: </h3>
+                        <div class="donutUpgradesStore--option-box">
+                            <button id="button--buyAutoClicker" class="store--button">Purchase 1 for 100 donuts</button>
+                        </div>
+                        <div id="donutsPerSecondDisplay">Donuts per click: </div>
+                    </div>
+                  </div>
+
+                  <main>
+
+  <button onclick="resetButtonClick()" id="resetGame">Restart Game</button>
+
+
+
+            <script src="/src/js/DonutMaker.js"></script>
+            <script src="/src/js/app.js"></script>
+            <script src="./src/js/menu.js"></script>
+
+      <div class="footer-font">&copy; Eduardo Colon 2021</div>
+     
 </body>
 </html>
